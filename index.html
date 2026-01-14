@@ -1,351 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Nav Bar</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top" style="height: 90px">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sourav Kumar Pradhan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><b>About</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><b>Properties</b></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><b>Services</b></a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#"><b>SEO</b></a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"><b>SMO</b></a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"><b>WEB Development</b></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-      </div>
+    <head>
+        <title>My Website</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    </head>
 
-      <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/Digital marketing executive..png" alt="Los Angeles" class="d-block" style="width: 100%">
-        </div>
-        <div class="carousel-item">
-          <img src="images/transition into a Web Development role..png" alt="Chicago" class="d-block" style="width: 100%" />
-        </div>
-        <div class="carousel-item">
-          <img src="images/Web Developer..png" alt="New York" class="d-block" style="width: 100%">
-        </div>
-      </div>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark sticky-top" style="height: 90px">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/Logo.jpg" alt="Logo" height="70" width="70"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>About</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>Contact</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><b>Services</b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#"><b>SEO</b></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"><b>SMO</b></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"><b>Digital Marketing</b></a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"><b>WEB Development</b></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
 
-      <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-sm-6 p-3 bg-light text-Black">
-         
-          <h1>About</h1>
-          <br>
-          <p>
-           Hello! I am <a href="https://www.linkedin.com/in/sourav-kumar-pradhan-544301198/">Sourav Kumar Pradhan</a>, an experienced Digital Marketing Specialist trying to get into Web Development role.
-          </p>
-          <p>Experienced digital marketing executive operating in SEO domain; servicing a wide array of clients over the years. Now trying to pivot to web development. Looking for new opportunities.</p>
-        </div>
-        <div class="col-sm-6 p-3 bg-light text-Black">
-         
-          <div class="My-image"><img src="images/My image.jpg" alt="Sourav Kumar Pradhan" height="500px" width="500px"></div>
-        </div>
-      </div>
-    </div>
-    <br />
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-sm-6 p-2 bg-light text-Black">
-          <div class="box">
-            <div class="top-left border"><img src="images/square image.jpg" alt="" height="200px" width="200px"></div>
-            <div class="box-center border"><img src="images/square image.jpg" alt="" height="500px" width="600px"></div>
-            <div class="bottom-right border"><img src="images/square image.jpg" alt="" height="200px" width="200px"></div>
-          </div>
-        </div>
-        <div class="col-sm-6 p-3 bg-light text-Black">
-          text
-          <h1>Find Your Ideal Property with Expert Guidance</h1>
-         
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-            estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect
-            with verified real estate professionals.
-          </p>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Digital marketing executive..png" alt="Los Angeles" class="d-block" style="width: 100%" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/transition into a Web Development role..png" alt="Chicago" class="d-block" style="width: 100%" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Web Developer..png" alt="New York" class="d-block" style="width: 100%" />
+                </div>
+            </div>
 
-          <h1>Find Your Ideal Property with Expert Guidance</h1>
-         <br>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-            estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect
-            with verified real estate professionals.
-          </p>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-      </div>
-    </div>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-sm-3 p-4 bg-light">
-          sec1
-          <div class="image"><img src="images/square image.jpg" alt="" class="img-fluid"></div>
-          <div>
-            <h1>Property under sale</h1>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-              estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Connect with verified real estate professionals.
-            </p>
-            <div class="alert alert-success text-center">
-              <strong>SEO</strong>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4 bg-light">
-          sec2
-          <div class="image"><img src="images/square image.jpg" alt="" class="img-fluid" /></div>
-          <div>
-            <h1>Property under sale</h1>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-              estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Connect with verified real estate professionals.
-            </p>
-            <div class="alert alert-info text-center">
-              <strong>SMO</strong>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4 bg-light">
-          Sec3
-          <div class="image"><img src="images/square image.jpg" alt="" class="img-fluid" /></div>
-          <div>
-            <h1>Property under sale</h1>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-              estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Connect with verified real estate professionals.
-            </p>
-            <div class="alert alert-warning text-center">
-              <strong>Digital Marketing</strong>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 p-4 bg-light">
-          Sec4
-          <div class="image"><img src="images/square image.jpg" alt="" class="img-fluid" /></div>
-          <div>
-            <h1>Property under sale</h1>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Connect with verified real
-              estate professionals. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Connect with verified real estate professionals.
-            </p>
-            <div class="alert alert-danger text-center">
-              <strong>Web Development</strong>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-light mt-3">
-      <h2 class="text-decoration-underline text-center">Why Us</h2>
-      <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3>Why Choose Premier Real Estate Partners?</h3>
-            <p>
-              With over two decades of experience in the real estate market, we've built our reputation on trust, expertise, and exceptional results.
-              Our dedicated team of local experts understands the nuances of every neighborhood and market trend.
-            </p>
-          </div>
-          <div class="col-sm-6">
+        <div class="container mt-3">
             <div class="row">
-              <div class="col-sm-6 text-center">
-                <h3>side title</h3>
-                <p>cnnejbaccccckkkkkkkkkkkkkk sebfveoowdol</p>
-              </div>
-              <div class="col-sm-6 text-center">
-                <h3>side title</h3>
-                <p>ncewpgvwhvuhfc nkvptsd vfefenfih</p>
-              </div>
+                <div class="col-sm-6 p-3 bg-light text-Black">
+                    <h1>About</h1>
+                    <br />
+                    <p>
+                        Hello! I am <b><a href="https://www.linkedin.com/in/sourav-kumar-pradhan-544301198/">Sourav Kumar Pradhan</a></b>, an experienced Digital Marketing
+                        Specialist trying to get into Web Development role.
+                    </p>
+                    <p>
+                        Experienced digital marketing executive operating in SEO domain; servicing a wide array of clients over the years. Now trying to pivot to web
+                        development. Looking for new opportunities.
+                    </p>
+                    <p>My background in keywords research, technical audits, and analytics guides smarter architecture, clean URLs, and performance-first builds. By shipping small projects, contributing to GitHub, and collaborating with designers, proves end-to-end value. As a developer who understands search intent and Core Web Vitals, I create scalable products that rank, convert, and delight users across platforms, teams, and long-term business growth worldwide.
+
+                    </p>
+                </div>
+                <div class="col-sm-6 p-3 bg-light text-Black">
+                    <div class="My-image"><img src="images/My image.jpg" alt="Sourav Kumar Pradhan" height="500px" width="500px" /></div>
+                </div>
             </div>
+        </div>
+        <br />
+        <div class="container mt-3">
             <div class="row">
-              <div class="col-sm-6 text-center">
-                <h3>side title</h3>
-                <p>cnnejbaccccckkkkkkkkkkkkkk sebfveoowdol</p>
-              </div>
-              <div class="col-sm-6 text-center">
-                <h3>side title</h3>
-                <p>ncewpgvwhvuhfc nkvptsd vfefenfih</p>
-              </div>
+                <div class="col-sm-6 p-2 bg-light text-Black">
+                    <div class="box">
+                        <div class="top-left "><img src="images/SEO.png" alt="" height="200px" width="200px" /></div>
+                        <div class="box-center"><img src="images/Digital marketing.png" alt="" height="600px" width="600px" /></div>
+                        <div class="bottom-right"><img src="images/SMO.png" alt="" height="200px" width="200px" /></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-3 bg-light text-Black">
+                    
+                    <h2>Digital Marketing</h2>
+
+                    <p>
+                        Digital marketing is the promotion of products and services using the internet and other digital communication technologies like mobile phones and social media.
+                    </p>
+
+                    <h3>Search Engine Optimization (SEO)</h3>
+                    <p>
+                       <ol> 
+                        <li><b>On-Page SEO</b> – optimizing content, titles, meta descriptions, headings, keywords.</li>
+                        <li><b>Technical SEO</b> – site speed, mobile-friendliness, indexing, structured data.</li>
+                        <li><b>Off-Page SEO</b> – backlinks, brand mentions, authority building.</li>
+                        <li><b>Content SEO</b> – creating helpful, keyword-targeted content.</li>
+                    </ol>
+                    </p>
+                    <h3>Social Media Marketing (SMO)</h3>
+                    <ol> 
+                        <li><b>Profile Optimization</b> – complete bio, keywords, links, branding.</li>
+                        <li><b>Content Strategy</b> – relevant posts, hashtags, visuals, videos.</li>
+                        <li><b>Engagement</b> – likes, comments, shares, responding to users.</li>
+                        <li><b>Posting Schedule</b> – consistent and timed for your audience.</li>
+                    </ol>
+                    <br />
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-<br>
-  <div class="container">
-    <h2 class="text-center">Contact Form</h2>
-    <br>
-    <form>
-        <h4><label for="Stream">Service</label></h4>
-       <select id="selector"> 
-        <option value="SEO">SEO</option><br><br>
-        <option value="SMO">SMO</option><br><br>
-        <option value="Digital Marketing">Digital Marketing</option><br><br>
-        <option value="Web Development">Web Development</option>
-       </select><br><br>
-       <h4>Select Payment Method</h4>
-       <input type="radio" name="nametype" value="online">
-       Online <br>
-       <input type="radio" name="nametype" value="Offline">
-       Offline <br><br>
-        <label for="first name">First Name</label>
-        <input type="text" id="fname" placeholder="first name"> <br><br>
-        <label for="last name">Last Name</label>
-        <input type="text" id="lname" placeholder="last name"><br><br>
-        <label for="Mail">Mail id</label>
-        <input type="Mail" id="mail" placeholder="Sourav1204@gmail.com"><br><br>
-        <label for="Password">Password</label>
-        <input type="Password" id="password" placeholder="enter your password">  <br><br>
-        <textarea cols="100" rows="5" id="note">Note...</textarea> <br><br>
-    </form>
-    
-         <button type="submit" id="submit" onclick="submitBtn();">submit</button>
-    <script>
-        function submitBtn()
-        
-        {   
-            let Selector = document.getElementById("Selector").value
-            console.log(Selector);
-            let fname = document.getElementById("fname").value
-            console.log(fname);
-            let lname = document.getElementById("lname").value
-            console.log(lname);
-            let mail = document.getElementById("mail").value
-            console.log(mail);
-            let password = document.getElementById("password").value
-            console.log(password);
-            let Description = document.getElementById("note").value
-            console.log(Description);
-            let nametype = document.querySelector('input[name="nametype"]:checked').value
-            console.log(nametype);
-        }
-    </script>
-  </div>
-   <script src="new.js">
-   </script>
-  
-    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-      <div class="col mb-3">
-        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap">
-          <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <p class="text-body-secondary">© 2025</p>
-      </div>
-      <div class="col mb-3"></div>
-      <div class="col mb-3">
-        <h5>Useful links</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">About us</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Services</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Terms of service</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col mb-3">
-        <h5>Our services</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col mb-3">
-        <h5>Contact us</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2">
-            <a href="https://www.linkedin.com/in/sourav-kumar-pradhan-544301198/" class="nav-link p-0 text-body-secondary">Linkedin</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="https://x.com/imsourav1204" class="nav-link p-0 text-body-secondary">X.com</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="https://www.facebook.com/sourav.pradhan.315" class="nav-link p-0 text-body-secondary">Facebook</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="https://github.com/sourav1204-ux" class="nav-link p-0 text-body-secondary">Github</a>
-          </li>
-        </ul>
-        
-      </div>
-    </footer>
-    <div class="container-fluid text-center bg-success" style="height: 90px;">
-          <p style="padding-top: 30px;">Copyright <b>HomeSpace</b> All Rights Reserved Designed by BootstrapMade</p>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-sm-3 p-4 bg-light">
+                    <!-- sec1 -->
+                    <div class="image"><img src="images/SEO.png" alt="" class="img-fluid" /></div><br>
+                    <div>
+                        <h2 class="text-center">Search Engine Optimization</h2> <br>
+                        <p>
+                            SEO (Search Engine Optimization) is the practice of improving a website’s visibility in search engines to attract relevant, organic traffic. It combines keyword research, technical optimization, content creation, and user experience.
+                        </p>
+                        <div class="alert alert-success text-center">
+                            <strong>SEO</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-4 bg-light">
+                    <!-- sec2 -->
+                    <div class="image"><img src="images/SMO.png" alt="" class="img-fluid" /></div><br>
+                    <div>
+                        <h2 class="text-center">Social Media Marketing</h2><br>
+                        <p>
+                            SMO (Social Media Optimization) is the process of enhancing a brand’s presence across social platforms to increase visibility, engagement, and traffic. It involves creating shareable content, optimizing profiles, using relevant hashtags.
+                        </p>
+                        <div class="alert alert-info text-center">
+                            <strong>SMO</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-4 bg-light">
+                    <!-- Sec3 -->
+                    <div class="image"><img src="images/Digital marketing.png" alt="" class="img-fluid" /></div><br>
+                    <div>
+                        <h2 class="text-center">Digital Marketing</h2><br>
+                        <p>
+                        Digital marketing is the practice of promoting products and services through online channels to reach targeted audiences effectively. It includes SEO, SMO, content marketing, email campaigns, paid advertising, and analytics-driven strategies.
+                        </p>
+                        <div class="alert alert-warning text-center">
+                            <strong>Digital Marketing</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 p-4 bg-light">
+                    <!-- Sec4 -->
+                    <div class="image"><img src="images/Web development.jpg" alt="" class="img-fluid" /></div><br>
+                    <div>
+                        <h2 class="text-center">Web Development</h2><br>
+                        <p>
+                            Web development is the process of building, maintaining, and optimizing websites and web applications for performance, usability, and scalability. It includes front-end design using HTML, CSS, and JavaScript, as well as back-end development.
+                        </p>
+                        <div class="alert alert-danger text-center">
+                            <strong>Web Development</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-  </body>
+        <div class="container-fluid bg-light mt-3">
+        <div class="container">
+            <h2 class="text-decoration-underline text-center">Why Choose Us</h2><br>
+            <p class="text-center">Choosing digital services helps businesses grow faster, reach wider audiences, and stay competitive in today’s online-first world. Digital solutions such as SEO, web development, social media, and paid advertising deliver measurable results, real-time insights, and targeted engagement.</p>
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Why Choose Premier Real Estate Partners?</h3>
+                        <p>
+                            With over two decades of experience in the real estate market, we've built our reputation on trust, expertise, and exceptional results. Our
+                            dedicated team of local experts understands the nuances of every neighborhood and market trend.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-6 text-center">
+                                <h3>side title</h3>
+                                <p>cnnejbaccccckkkkkkkkkkkkkk sebfveoowdol</p>
+                            </div>
+                            <div class="col-sm-6 text-center">
+                                <h3>side title</h3>
+                                <p>ncewpgvwhvuhfc nkvptsd vfefenfih</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-center">
+                                <h3>side title</h3>
+                                <p>cnnejbaccccckkkkkkkkkkkkkk sebfveoowdol</p>
+                            </div>
+                            <div class="col-sm-6 text-center">
+                                <h3>side title</h3>
+                                <p>ncewpgvwhvuhfc nkvptsd vfefenfih</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        </div>
+        </div>
+        <br />
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h2 class="text-center mb-4">Contact Form</h2>
+
+                            <form id="contactForm">
+                                <!-- Service -->
+                                <div class="mb-3">
+                                    <label class="form-label">Service</label>
+                                    <select class="form-select" id="selector" required>
+                                        <option value="">-- Select Service --</option>
+                                        <option value="SEO">SEO</option>
+                                        <option value="SMO">SMO</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Web Development">Web Development</option>
+                                    </select>
+                                </div>
+
+                                <!-- Payment -->
+                                <div class="mb-3">
+                                    <label class="form-label">Payment Method</label><br />
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="nametype" value="Online" required />
+                                        <label class="form-check-label">Online</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="nametype" value="Offline" />
+                                        <label class="form-check-label">Offline</label>
+                                    </div>
+                                </div>
+
+                                <!-- Names -->
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">First Name</label>
+                                        <input type="text" id="fname" class="form-control" required />
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Last Name</label>
+                                        <input type="text" id="lname" class="form-control" required />
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" id="mail" class="form-control" required />
+                                </div>
+
+                                <!-- Password -->
+                                <div class="mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" id="password" class="form-control" minlength="6" required />
+                                </div>
+
+                                <!-- Note -->
+                                <div class="mb-3">
+                                    <label class="form-label">Note</label>
+                                    <textarea class="form-control" id="note" rows="4" required></textarea>
+                                </div>
+
+                                <!-- Submit -->
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-success px-5" onclick="formSubmitFun()">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function formSubmitFun() {
+                // Get values
+                let service = document.getElementById("selector").value;
+                let fname = document.getElementById("fname").value;
+                let lname = document.getElementById("lname").value;
+                let email = document.getElementById("mail").value;
+                let password = document.getElementById("password").value;
+                let note = document.getElementById("note").value;
+                let payment = document.querySelector('input[name="nametype"]:checked');
+
+                // Validation
+                if (!service || !fname || !lname || !email || !password || !note || !payment) {
+                    alert("Please fill all required fields");
+                    return;
+                }
+                // WhatsApp Message
+                let whatsappMessage = `, Service: ${service}, Payment: ${payment.value}, Name: ${fname} ${lname}, Email: ${email}, Note: ${note}`;
+                let whatsappNumber = "917064066768"; // <-- Replace with your number
+                let whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+                window.open(whatsappURL, "_blank");
+                // Email (client-side)
+                let mailtoLink = `mailto:sourav1204@gmail.com?subject=New Contact Form Submission&body=${encodeURIComponent(whatsappMessage)}`;
+                
+                console.log(mailtoLink)
+                window.location.href = mailtoLink;
+                alert("Form submitted successfully!");
+                document.getElementById("contactForm").reset();
+            }
+        </script>
+        <script src="new.js"></script>
+
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+               
+            </div>
+            <div class="col mb-3"></div>
+            <div class="col mb-3">
+                <h5>Useful links</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">About us</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Services</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Terms of service</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <div class="col mb-3">
+                <h5>Contact us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="https://www.linkedin.com/in/sourav-kumar-pradhan-544301198/" class="nav-link p-0 text-body-secondary">Linkedin</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://x.com/imsourav1204" class="nav-link p-0 text-body-secondary">X.com</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://www.facebook.com/sourav.pradhan.315" class="nav-link p-0 text-body-secondary">Facebook</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="https://github.com/sourav1204-ux" class="nav-link p-0 text-body-secondary">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <div class="container-fluid text-center bg-success" style="height: 90px">
+            <p style="padding-top: 30px">Copyright <b>My Website</b> All Rights Reserved | Designed by <b>Sourav Kumar Pradhan</b></p>
+        </div>
+    </body>
 </html>
